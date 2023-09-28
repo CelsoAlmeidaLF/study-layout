@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@100;200&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-brand: #EF13F2;
+    --color-light: #e5e5e5;
+    --color-dark: #0e051a;
+    --color-primary: #EF13F2;
+    --color-primary-dark: #19021a;
+    --color-primary-container: #640866;
+    --color-secondary: #05F2DB;
+    --color-secondary-dark: #011a17;
+    --color-secondary-container: #02665c;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', 'Arial', 'sans-serif';
+}
+
+body {
+    color:#fff;
+    background-color: var(--color-dark);
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 1rem;
+    font-family: 'Poppins', 'Arial', 'sans-serif';
+}
+
+a {
+    color: #fff;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none; 
+}
+
+header,
+footer,
+section,
+main,
+section div,
+nav, a {
+    border: 1px solid #640866;
+    box-shadow: 0 0 10px #640866;
+}
+
+header,
+footer,
+section,
+main,
+section div {
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-size: 2.2rem;
+}
+
+li a {
+    font-size: 0.9rem;
+
+    background: rgba(100, 8, 102, 0.6);
+
+    margin: 32px 2px;
+    padding: 20px 20px;
+
+    transition: all 0.2s ease-in;
+}
+
+li a:hover {
+    font-size: 0.9rem;
+    background: rgba(100, 8, 102, 1.2);
+}
+
+
+header,
+footer {
+    background: rgba(100, 8, 102, 0.6);
+
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+header {
+    top: 0;
+    z-index: 1000;
+}
+
+footer {
+    bottom: 0;
+}
+
+main {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+main main {
+    position: relative;
+    margin: 8px;
+}
+
+section {
+    position: relative;
+    min-height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 16px 0;
+}
+
+section div {
+    background: rgba(100, 8, 102, 0.6);
+
+    width: 100%;
+    min-height: 4rem;
+
+    text-align: center;
+}
